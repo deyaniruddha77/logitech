@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/earth-orbiter');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(270deg, #333232 11.36%, #030303 111.2%);
+border-radius: 60px;
+}
+.logo{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+}
+ul{
+    list-style: none;
+    color:aliceblue;
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 25vw;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+}
+.search{
+    padding-left: 20px;
+    height: 4vh;
+    width: 12vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: rgb(218, 218, 218);
+    font-size:22px;
+    text-align: justify;
+    position: relative;
+    top: -3vh;
+    left: 85vw;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.search-image{
+    height: 5vh;
+    width: 5vw;
+    position: relative;
+    top: -3.5vh;
+    left: 8.5vw;
+}
+.content{
+    color: aliceblue;
+    height:max-content;
+    width:max-content;
+    position: relative;
+    top: 20vh;
+    left: 3vw;
+}
+.heading{
+    height: fit-content;
+    width: fit-content;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+.herotext{
+    height: fit-content;
+    width: fit-content;
+    line-height: 90px;
+    font-size: 120px;
+    font-family: 'Earth Orbiter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+p{
+    position:relative;
+    top: 5vh;
+    font-size: 20px;
+    width: 25vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+.bg-text{
+    position: relative;
+    top: -22vh;
+    left: 35vw;
+    color: rgb(0, 0, 0);
+    height: max-content;
+    width: max-content;
+    font-size: 400px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 800;
+    -webkit-text-stroke-width:.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255)   ;
+}
+.side-img{
+    position: relative;
+    top: -80vh;
+    left: 50vw;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top:45vh;
+    left:5vw;
+    width:20vw;
+    height:5vh;
+}
+.small-imgs{
+    height:10vh;
+    width: 10vw;
+    position: relative;
+    top: -110vh;
+    left: 72vw;
+    line-height: 100px;
+}
+.button1{
+    font-weight:600 ;
+    font-family: 'Inter', sans-serif; 
+    color: #000000;
+    background-color: aliceblue;
+    height:5vh;
+    width: 12vw;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 15vh;
+    left:3vw;
+}
+.button2{
+    font-weight:400 ;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif; 
+    height:6vh;
+    width: 13vw;
+    background-color: transparent;
+    border: 2px solid rgba(170, 170, 170);
+    border-radius: 50px;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: -82vh;
+    left: 65vw;
+    letter-spacing: 4px;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+color: rgba(255, 255, 255, 0.54);
+}
+.boy{
+    position: absolute;
+    top: 3vh;
+    left: 24.5vw;
+}
